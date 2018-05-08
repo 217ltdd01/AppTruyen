@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_trangchu"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Trang chủ" />
+        <item
+            android:id="@+id/nav_theloai"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Thể loại" />
+        <item
+            android:id="@+id/nav_thuvien"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Thư viên" />
+        <item
+            android:id="@+id/nav_congdong"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Cộng đồng"
+            />
+    </group>
+
+    <item android:title="Nâng cao">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Chia sẽ" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Chi tiết" />
+        </menu>
+    </item>
+
+
+</menu>
